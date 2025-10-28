@@ -6,7 +6,7 @@ import Location from "/End/Location.svg";
 import Message from "/End/Message.svg"; 
 
 const Container = styled.div`
-margin-top: 158px;
+margin-top: 15px;
 height: 85px;
 
 background-color: #46a35947;
@@ -17,7 +17,7 @@ const Container_items = styled.div`
 padding-left: 50px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
-padding-top: 20px;
+padding-top: 2px;
 
 
 `;

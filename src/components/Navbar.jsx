@@ -12,7 +12,7 @@ export const Navbar = () => {
           <img 
             src={trava} 
             alt="Logo" 
-            className="relative top-[-2px] left-[170px] h-[50px] w-[50px]" 
+            className="relative top-[-2px] left-[170px] h-[50px] w-[50px] " 
           />
         </div>
         <div className="flex justify-center">
