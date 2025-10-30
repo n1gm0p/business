@@ -1,7 +1,7 @@
 import React from "react";
 import { Animated } from "react-animated-css";
 import plants from "/plants.png";
-import line from "/line.svg"; // импорт линии
+import line from "/line.svg";
 import { ArrowRight } from "lucide-react";
 
 export default function Baner() {
@@ -9,13 +9,12 @@ export default function Baner() {
     <Animated animationIn="fadeInRight" animationOut="fadeOut" isVisible={true}>
       <div className="relative flex justify-center mt-[50px]">
         
-        {/* Line SVG на фоне */}
         <img
           src={line}
           alt="Line Background"
           style={{
             position: "absolute",
-            top: "-80px", // двигаем вверх, можно менять
+            top: "-80px", 
             left: "50%",
             transform: "translateX(-50%)",
             width: "1510px",
@@ -27,7 +26,7 @@ export default function Baner() {
 
         <div className="relative flex w-[1300px] h-[450px] rounded-[25px] z-10">
           <div>
-            <p className="text-[#111029] font-[600] pl-[65px] text-[50px] leading-[62px] max-w-[550px] mb-[20px] break-words">
+            <p className="text-[#111029] font-[600] pl-[65px] text-[50px] leading-[60px] max-w-[550px] mb-[20px] break-words">
               Make your business{" "}
               <span className="text-[#FF6800]">more powerful</span> with us
             </p>

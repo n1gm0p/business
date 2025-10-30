@@ -1,19 +1,18 @@
 import React from "react";
 import styled from "styled-components";
-import phito from "/Phito.png";
-import Shape from "/Shape.svg";
+import Amazon from "/Amazon.svg";
+
 
 const Container = styled.section`
   position: relative;
-  padding-top: 200px;
+  padding-top: 50px;
   text-align: center;
   overflow: hidden;
-  height: 1000px;
+  height: 600px;
 `;
 
 const All_container = styled.div`
   position: relative;
-  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,12 +24,12 @@ const All_container = styled.div`
   & span {
     display: inline-block;
     font-size: 42px;
-    font-weight: 500;
+    font-weight: 600;
     color: #111029;
     max-width: 1120px;
     white-space: normal;
     line-height: 1.2;
-    margin-top: 8px;
+    margin-top: 30px;
   }
 
   & p {
@@ -39,38 +38,26 @@ const All_container = styled.div`
 `;
 
 const Photo = styled.img`
-  width: 1120px;
-  height: 650px;
+  width: 806px;
+  height: 130px;
   object-fit: cover;
-  margin-top: 40px;
+  margin-top: 150px;
   position: relative;
-  z-index: 2;
 `;
 
-const BackgroundShape = styled.img`
-  position: absolute;
-  bottom: -800px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 1600px;
-  height: auto;
-  z-index: 1;
-  pointer-events: none;
-`;
 
-function PhotoBlock() {
+function Companies() {
   return (
     <Container>
-      <BackgroundShape src={Shape} alt="Background Shape" />
       <All_container>
-        <p>Our Documentation</p>
+        <p>Some of Our Great Customers</p>
         <span>
-          See what our profile is like and how we work for your business
+          Some of the companies we have worked with
         </span>
-        <Photo src={phito} alt="Phito" />
+        <Photo src={Amazon} alt="Amazon"/>
       </All_container>
     </Container>
   );
 }
 
-export default PhotoBlock;
+export default Companies;

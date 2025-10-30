@@ -101,8 +101,8 @@ const InnerContainer = styled.article`
     }
 
     ${IconCircle} {
-      background-color: #ffffff; /* кружок белый при ховере */
-      box-shadow: 1px 9px 15px rgba(0, 0, 0, 0.2); /* темная тень при ховере */
+      background-color: #ffffff;
+      box-shadow: 1px 9px 15px rgba(0, 0, 0, 0.2);
       & svg {
         stroke: #4c40f7;
       }
