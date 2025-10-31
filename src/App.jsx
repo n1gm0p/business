@@ -1,7 +1,6 @@
 import React from 'react'
 import Home from './pages/Home'
-import Shop from './pages/Shop'
-import Basket from './pages/Basket'
+
 
 import {
   createBrowserRouter,
@@ -14,19 +13,6 @@ const router = createBrowserRouter([
 {
   path: "/",
   element: <Home />
-},
-{
-  path: "shop",
-  element: <Shop />
-},
-
-{
-  path: "/",
-  element: <Shop/>
-},
-{
-  path: "basket",
-  element: <Basket/>
 }
 ])
 
