@@ -8,9 +8,10 @@ import Working from '../components/Working'
 import Companies from '../components/Companies'
 import QuoteBlock from '../components/QuoteBlock'
 import QuestionBlock from '../components/QuestionBlock'
+import TestBlock from '../components/TestBlock'
+import ProjectBlock from '../components/ProjectBlock'
+
 import End from '../components/End'
-
-
 
 
 export const Home = () => {
@@ -25,6 +26,8 @@ export const Home = () => {
       <Companies />
       <QuoteBlock />
       <QuestionBlock />
+      <TestBlock />
+      <ProjectBlock />
       <End />
     </div>
 

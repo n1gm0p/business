@@ -45,6 +45,8 @@ const Photo = styled.img`
   margin-top: 40px;
   position: relative;
   z-index: 2;
+  box-shadow: 0 5px 25px rgba(9, 0, 255, 0.4);
+
 `;
 
 const BackgroundShape = styled.img`

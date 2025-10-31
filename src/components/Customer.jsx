@@ -26,7 +26,7 @@ const CardsContainer = styled.div`
   gap: 40px;
   position: relative;
 
-  /* Левый ряд чуть ниже правого */
+  
   & > div:nth-child(1),
   & > div:nth-child(3) {
     transform: translateY(40px);
@@ -53,7 +53,7 @@ const CardTitle = styled.h3`
   margin-top: 25px;
   font-size: 56px;
   font-weight: 700;
-  color: ${(props) => props.color || "#111029"}; // цвет из пропса
+  color: ${(props) => props.color || "#111029"};
   margin-bottom: 10px;
 
 `;
