@@ -1,12 +1,10 @@
 import React from "react";
-import { Animated } from "react-animated-css";
 import { Link } from "react-router-dom";
-
 import trava from "/logobis.svg";
+
 
 export const Navbar = () => {
   return (
-    <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
       <div className="pt-[30px] grid grid-cols-3 items-center pr-[20px] gap-[10px] font-sans">
         <div className="flex w-[100px]">
           <img 
@@ -38,7 +36,6 @@ export const Navbar = () => {
 
         <div className="flex justify-end pr-[10px]">
           <button
-          onClick={() => alert("Кнопка работает!")}
             className="mr-[130px] h-[55px] w-[140px] flex items-center justify-center rounded-[12px] text-[#FFFFFF] font-[550] text-[13px] outline-none border-none shadow-[-5px_5px_15px_rgba(76,64,247,0.38)] hover:bg-[#FFFFFF] hover:scale-105 transition-all duration-200 tracking-[.10em]"
             style={{
               backgroundColor: "#4C40F7"
@@ -49,7 +46,6 @@ export const Navbar = () => {
         </div>
 
       </div>
-    </Animated>
   );
 };
 

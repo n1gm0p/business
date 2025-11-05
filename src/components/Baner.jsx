@@ -1,14 +1,12 @@
 import React from "react";
-import { Animated } from "react-animated-css";
+
 import plants from "/plants.png";
 import line from "/line.svg";
 import { ArrowRight } from "lucide-react";
 
 export default function Baner() {
   return (
-    <Animated animationIn="fadeInRight" animationOut="fadeOut" isVisible={true}>
       <div className="relative flex justify-center mt-[50px]">
-        
         <img
           src={line}
           alt="Line Background"
@@ -23,7 +21,6 @@ export default function Baner() {
             zIndex: 0,
           }}
         />
-
         <div className="relative flex w-[1300px] h-[450px] rounded-[25px] z-10">
           <div>
             <p className="text-[#111029] font-[600] pl-[65px] text-[50px] leading-[60px] max-w-[550px] mb-[20px] break-words">
@@ -48,6 +45,5 @@ export default function Baner() {
           />
         </div>
       </div>
-    </Animated>
   );
 }

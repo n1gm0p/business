@@ -42,10 +42,10 @@ const Photo = styled.img`
   width: 1120px;
   height: 650px;
   object-fit: cover;
-  margin-top: 40px;
+  margin-top: 60px;
   position: relative;
   z-index: 2;
-  box-shadow: 0 5px 25px rgba(9, 0, 255, 0.4);
+  border-radius: 20px;
 
 `;
 
