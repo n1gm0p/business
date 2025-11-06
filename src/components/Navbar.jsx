@@ -21,7 +21,7 @@ export const Navbar = () => {
             Home
           </Link>
           <Link 
-            to="/shop" 
+            to="/" 
             className="text-[20px] mr-[80px] text-[#6B6B6B] font-[550] no-underline hover:text-[#4C40F7] font-sans"
           >
             Works

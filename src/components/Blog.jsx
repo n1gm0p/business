@@ -62,7 +62,6 @@ const IconCircle = styled.div`
   justify-content: center;
   background-color: ${(props) => props.bgColor};
   transition: all 0.5s ease;
-  /* тень цветная по bgColor */
   box-shadow: 2px 8px 30px ${(props) => props.bgColor}99;
 
   & svg {
